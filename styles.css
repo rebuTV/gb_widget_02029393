@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+html {
+    font-size: 62.5%;
+    text-size-adjust: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+body {
+    background-color: #f7f7f8;
+    color: #0e0e10;
+    font-family: "Inter","Roobert","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+html, body {
+    line-height: 1.5;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+#container {
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter","Roobert","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.goal_widget__container {
+    font-size: 27.7777777778vh;
+    line-height: 27.7777777778vh;
+}
+
+.cHwpra {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.goal_widget {
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.hsnsqF {
+    position: relative !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.goal_widget__progress_bar {
+    transition: width 1s ease;
+}
+
+.dokMXD {
+    position: absolute !important;
+    top: 0px !important;
+    bottom: 0px !important;
+}
+
+.OliFA {
+    position: relative !important;
+    display: flex !important;
+    padding-left: 2rem !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+    max-width: 100%;
+}
+
+.goal_widget__image {
+    height: 70%;
+    max-width: 20%;
+}
+
+.goal_widget__metadata {
+    justify-content: space-between;
+}
+
+.jwSeQr {
+    display: flex !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    width: 100% !important;
+}
+
+.xxjeD {
+    display: flex !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
+
+.goal_widget__contributions {
+    flex-shrink: 0;
+   /* white-space: pre-wrap; */
+}
+
+.cVmNmw {
+   display: flex !important;
+}
+
+.jkurzn {
+    font-weight: 600 !important;
+}
+
+
+.cmdqmU {
+    display: inline-block !important;
+    margin-right: 20px;
+}
+
+.dtAmne {
+    transition-delay: 0ms;
+    transition-duration: 150ms;
+    transition-timing-function: ease;
+    transition-property: none;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+@media (max-aspect-ratio: 9/2) {
+    .goal_widget__container {
+        font-size:20vh;
+        line-height: 20vh
+    }
+
+    .goal_widget__metadata {
+        align-items: start;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center
+    }
+}
